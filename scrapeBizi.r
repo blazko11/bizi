@@ -5,7 +5,7 @@ require(XML)
 
 html <- read_html("http://www.bizi.si/TSMEDIA/")
 dejavnosti <- html_nodes(html, "#ctl00_cphMain_divActList a")
-
+#dsfdgfngfbb
 # stevilo dejavnosti
 length(dejavnosti)
 
